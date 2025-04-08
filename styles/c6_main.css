@@ -73,7 +73,10 @@ main section h3 {
   padding-bottom: 0.25em;
 }
 main section img {
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
+  float: right;
+  margin: 8px;
+  border: 1px solid black;
 }
 
 main section p {
@@ -121,10 +124,6 @@ article h2 {
 article h3 {
   font-size: 105%;
   padding-bottom: 0.25em;
-}
-
-article img {
-  float: right;
 }
 
 /* the styles for the aside */
